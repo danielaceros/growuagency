@@ -38,7 +38,7 @@ const DefaultHeader = ({ singleMenu, dark }) => {
               {/* menu sidbar */}
               <div className="menu-sidebar">
                   <button disabled>
-                  <a href="callto:+34629819696" target="_blank">
+                  <a href="tel:+34629819696" target="_blank">
                   <i className="far fa-calendar-alt" style={{
                     color: "black"
                   }}/>

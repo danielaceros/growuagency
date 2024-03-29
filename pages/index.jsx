@@ -486,7 +486,7 @@ const Index = () => {
                     <a href="https://api.whatsapp.com/send?phone=34629819696" target="_blank">
                       <i className="fab fa-whatsapp" />
                     </a>
-                    <a href="callto:+34629819696" target="_blank">
+                    <a href="tel:+34629819696" target="_blank">
                       <i className="fas fa-mobile-alt" />
                     </a>
                   </div>

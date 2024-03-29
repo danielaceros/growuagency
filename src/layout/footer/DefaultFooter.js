@@ -56,7 +56,7 @@ const DefaultFooter = ({ dark }) => {
                 </a>
                 <a
                   className="theme-btn style-three phone-number"
-                  href="callto:+34629819696"
+                  href="tel:+34629819696"
                 >
                   +34 629 81 96 96 <i className="far fa-arrow-right" />
                 </a>

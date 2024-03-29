@@ -31,7 +31,7 @@ const Contact = () => {
                         support@gmail.com
                       </a>
                       <br />
-                      <a className="callto" href="callto:+00012345688">
+                      <a className="tel" href="tel:+00012345688">
                         <i className="fas fa-phone" /> +000 (123) 456 88
                       </a>
                     </div>
@@ -44,7 +44,7 @@ const Contact = () => {
                         support@gmail.com
                       </a>
                       <br />
-                      <a className="callto" href="callto:+00012345688">
+                      <a className="tel" href="tel:+00012345688">
                         <i className="fas fa-phone" /> +000 (123) 456 88
                       </a>
                     </div>

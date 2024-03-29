@@ -116,7 +116,7 @@ const Footer6 = ({ dark }) => {
                 </li>
                 <li>
                   <i className="far fa-phone" />{" "}
-                  <a href="callto:+000(123)45688">+000 (123) 456 88</a>
+                  <a href="tel:+000(123)45688">+000 (123) 456 88</a>
                 </li>
               </ul>
             </div>
