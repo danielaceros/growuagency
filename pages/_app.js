@@ -33,7 +33,7 @@ export default function App({ Component, pageProps }) {
         {/* Favicon Icon */}
         <link
           rel="shortcut icon"
-          href="assets/images/favicon.png"
+          href="assets/images/logos/gc.png"
           type="image/x-icon"
         />
         {/* Google Fonts */}
