@@ -10,14 +10,14 @@ const DefaultHeader = ({ singleMenu, dark }) => {
         <div className="container container-1620 clearfix">
           <div className="header-inner rpy-10 rel d-flex align-items-center">
             <div className="logo-outer">
-              <div className="logo">
+              <div className="logo m-5">
                 <Link legacyBehavior href="/">
                   <a>
                     <img
                       src={
                         dark
-                          ? "assets/images/logos/logo-white.png"
-                          : "assets/images/logos/logo.png"
+                          ? "assets/images/logos/gc.png"
+                          : "assets/images/logos/gc.png"
                       }
                       alt="Logo"
                       title="Logo"
@@ -37,9 +37,13 @@ const DefaultHeader = ({ singleMenu, dark }) => {
             <div className="menu-btns">
               {/* menu sidbar */}
               <div className="menu-sidebar">
-                <button>
-                  <img src="assets/images/icons/toggler.svg" alt="Toggler" />
-                </button>
+                  <button disabled>
+                  <a href="callto:+34629819696" target="_blank">
+                  <i className="far fa-calendar-alt" style={{
+                    color: "black"
+                  }}/>
+                  </a>
+                  </button>
               </div>
             </div>
           </div>

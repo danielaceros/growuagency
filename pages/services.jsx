@@ -20,7 +20,7 @@ const Services = () => {
                   src="assets/images/banner/leaf.png"
                   alt="Leaf"
                 />
-                For Web Design &amp; Development
+                For Digital People
               </h1>
             </div>
           </div>
@@ -35,21 +35,13 @@ const Services = () => {
               <div className="feature-item-three wow fadeInUp delay-0-2s">
                 <div className="top-part">
                   <span className="serial-number">01</span>
-                  <Link legacyBehavior href="/service-details">
-                    <a className="details-btn">
-                      <i className="far fa-arrow-right" />
-                    </a>
-                  </Link>
                 </div>
                 <div className="content">
                   <h4>
-                    <Link legacyBehavior href="/service-details">
-                      <a>Web Development</a>
-                    </Link>
+                      Social Media
                   </h4>
                   <p>
-                    At vero eos et accusamus et iusto odio dignissimos ducimus
-                    quie blanditiis praesentium voluptatum delenit corruptie
+                  Unlock the power of social media with our expert service: Growing Profiles. We specialize in expanding your social media presence organically, engaging your audience, and maximizing your reach. Let us elevate your online influence and help your brand thrive in the digital landscape.
                   </p>
                 </div>
               </div>
@@ -58,21 +50,13 @@ const Services = () => {
               <div className="feature-item-three wow fadeInUp delay-0-4s">
                 <div className="top-part">
                   <span className="serial-number">02</span>
-                  <Link legacyBehavior href="/service-details">
-                    <a className="details-btn">
-                      <i className="far fa-arrow-right" />
-                    </a>
-                  </Link>
                 </div>
                 <div className="content">
                   <h4>
-                    <Link legacyBehavior href="/service-details">
-                      Application Development
-                    </Link>
+                      Web Development
                   </h4>
                   <p>
-                    Quis autem vel eum iure reprehenderit qui in ea voluptate
-                    velit esse quam nihil molestiae consequatur, vel illum quie
+                  Elevate your online presence with our web development service. We craft bespoke websites tailored to your needs, blending creativity with functionality to captivate your audience. From sleek designs to seamless user experience, trust us to bring your digital vision to life.
                   </p>
                 </div>
               </div>
@@ -81,21 +65,13 @@ const Services = () => {
               <div className="feature-item-three wow fadeInUp delay-0-2s">
                 <div className="top-part">
                   <span className="serial-number">03</span>
-                  <Link legacyBehavior href="/service-details">
-                    <a className="details-btn">
-                      <i className="far fa-arrow-right" />
-                    </a>
-                  </Link>
                 </div>
                 <div className="content">
                   <h4>
-                    <Link legacyBehavior href="/service-details">
-                      Digital Product Design
-                    </Link>
+                      Application Development
                   </h4>
                   <p>
-                    Ut enim ad minima veniam, quis nostrum exercitationem ullam
-                    corporis suscipit laboriosam, nisi ut aliquid commodie{" "}
+                  Step into the digital future with our app development service. We design and develop innovative mobile applications that elevate user experiences and drive engagement. From concept to launch, we're committed to crafting cutting-edge solutions that make an impact in the ever-evolving digital landscape.
                   </p>
                 </div>
               </div>
@@ -104,21 +80,13 @@ const Services = () => {
               <div className="feature-item-three wow fadeInUp delay-0-4s">
                 <div className="top-part">
                   <span className="serial-number">04</span>
-                  <Link legacyBehavior href="/service-details">
-                    <a className="details-btn">
-                      <i className="far fa-arrow-right" />
-                    </a>
-                  </Link>
                 </div>
                 <div className="content">
                   <h4>
-                    <Link legacyBehavior href="/service-details">
                       SEO Optimization
-                    </Link>
                   </h4>
                   <p>
-                    We denounce with righteous indignation and dislike men who
-                    are so beguiled and demoralized by the charms of pleasure
+                  Boost your online visibility with our SEO optimization service. We employ proven strategies to enhance your website's search engine rankings, driving targeted traffic and increasing conversions. Let us optimize your online presence, so you can rise above the competition and attract more customers.
                   </p>
                 </div>
               </div>
@@ -127,21 +95,13 @@ const Services = () => {
               <div className="feature-item-three wow fadeInUp delay-0-2s">
                 <div className="top-part">
                   <span className="serial-number">05</span>
-                  <Link legacyBehavior href="/service-details">
-                    <a className="details-btn">
-                      <i className="far fa-arrow-right" />
-                    </a>
-                  </Link>
                 </div>
                 <div className="content">
                   <h4>
-                    <Link legacyBehavior href="/service-details">
-                      <a>Design &amp; Branding</a>
-                    </Link>
+                      Design &amp; Branding
                   </h4>
                   <p>
-                    At vero eos et accusamus et iusto odio dignissimos ducimus
-                    quie blanditiis praesentium voluptatum delenit corruptie
+                  Elevate your brand with our design and branding service. We craft visually stunning identities that resonate with your audience, from captivating logos to cohesive brand guidelines. Whether you're launching a new venture or refreshing your image, trust us to bring your vision to life and make a lasting impression.
                   </p>
                 </div>
               </div>
@@ -150,21 +110,13 @@ const Services = () => {
               <div className="feature-item-three wow fadeInUp delay-0-4s">
                 <div className="top-part">
                   <span className="serial-number">06</span>
-                  <Link legacyBehavior href="/service-details">
-                    <a className="details-btn">
-                      <i className="far fa-arrow-right" />
-                    </a>
-                  </Link>
                 </div>
                 <div className="content">
                   <h4>
-                    <Link legacyBehavior href="/service-details">
                       IT Consulting
-                    </Link>
                   </h4>
                   <p>
-                    Quis autem vel eum iure reprehenderit qui in ea voluptate
-                    velit esse quam nihil molestiae consequatur, vel illum quie
+                  Empower your business with our IT consulting service. We offer strategic guidance and innovative solutions to optimize your technology infrastructure, streamline processes, and maximize efficiency. From cybersecurity to cloud computing, trust our expertise to drive your digital transformation and propel your business forward.
                   </p>
                 </div>
               </div>
@@ -173,21 +125,13 @@ const Services = () => {
               <div className="feature-item-three wow fadeInUp delay-0-2s">
                 <div className="top-part">
                   <span className="serial-number">07</span>
-                  <Link legacyBehavior href="/service-details">
-                    <a className="details-btn">
-                      <i className="far fa-arrow-right" />
-                    </a>
-                  </Link>
                 </div>
                 <div className="content">
                   <h4>
-                    <Link legacyBehavior href="/service-details">
                       Business Development
-                    </Link>
                   </h4>
                   <p>
-                    Ut enim ad minima veniam, quis nostrum exercitationem ullam
-                    corporis suscipit laboriosam, nisi ut aliquid commodie{" "}
+                  Accelerate your growth with our business development service. We provide tailored strategies and actionable insights to expand your market reach, forge strategic partnerships, and drive revenue growth. Whether you're a startup or an established enterprise, trust us to unlock new opportunities and propel your business to new heights.
                   </p>
                 </div>
               </div>
@@ -196,21 +140,13 @@ const Services = () => {
               <div className="feature-item-three wow fadeInUp delay-0-4s">
                 <div className="top-part">
                   <span className="serial-number">08</span>
-                  <Link legacyBehavior href="/service-details">
-                    <a className="details-btn">
-                      <i className="far fa-arrow-right" />
-                    </a>
-                  </Link>
                 </div>
                 <div className="content">
                   <h4>
-                    <Link legacyBehavior href="/service-details">
                       eCommerce Development
-                    </Link>
                   </h4>
                   <p>
-                    We denounce with righteous indignation and dislike men who
-                    are so beguiled and demoralized by the charms of pleasure
+                  Transform your online business with our eCommerce development service. We specialize in creating custom, user-friendly platforms that drive sales and enhance customer experiences. From intuitive interfaces to seamless payment integration, trust us to build a robust eCommerce solution that scales with your business and maximizes your online potential.
                   </p>
                 </div>
               </div>
@@ -226,7 +162,7 @@ const Services = () => {
             <span>
               <span className="marquee-item">
                 <i className="fas fa-star-of-life" />
-                <b>Design &amp; Branding</b>
+                <b>Social Media</b>
               </span>
               <span className="marquee-item">
                 <i className="fas fa-star-of-life" />
@@ -238,7 +174,7 @@ const Services = () => {
               </span>
               <span className="marquee-item">
                 <i className="fas fa-star-of-life" />
-                <b>Design &amp; Branding</b>
+                <b>Social Media</b>
               </span>
               <span className="marquee-item">
                 <i className="fas fa-star-of-life" />
@@ -250,7 +186,7 @@ const Services = () => {
               </span>
               <span className="marquee-item">
                 <i className="fas fa-star-of-life" />
-                <b>Design &amp; Branding</b>
+                <b>Social Media</b>
               </span>
               <span className="marquee-item">
                 <i className="fas fa-star-of-life" />
@@ -272,36 +208,36 @@ const Services = () => {
             <div className="col-xl-3 col-md-6">
               <div className="work-step-item style-two mt-60 wow fadeInDown delay-0-2s">
                 <span className="step-number">Step 01</span>
-                <h4 className="title">Idea Generate</h4>
+                <h4 className="title">Client Analysis</h4>
                 <div className="content">
-                  <p>Vero eos et accusamus iusto odio disimos</p>
+                  <p>First, we study each case and each client</p>
                 </div>
               </div>
             </div>
             <div className="col-xl-3 col-md-6">
               <div className="work-step-item style-two wow fadeInUp delay-0-2s">
                 <span className="step-number">Step 02</span>
-                <h4 className="title">Plan &amp; Design</h4>
+                <h4 className="title">Build Strategy</h4>
                 <div className="content">
-                  <p>Quis autems eum iures reprehen voluptate</p>
+                  <p>Second, we build a personalized strategy</p>
                 </div>
               </div>
             </div>
             <div className="col-xl-3 col-md-6">
               <div className="work-step-item style-two mt-60 wow fadeInDown delay-0-2s">
                 <span className="step-number">Step 03</span>
-                <h4 className="title">Project Testing</h4>
+                <h4 className="title">Produce</h4>
                 <div className="content">
-                  <p>To take example which ever undertakes</p>
+                  <p>Third, we start producing the content</p>
                 </div>
               </div>
             </div>
             <div className="col-xl-3 col-md-6">
               <div className="work-step-item style-two wow fadeInUp delay-0-2s">
                 <span className="step-number">Step 04</span>
-                <h4 className="title">Got Results</h4>
+                <h4 className="title">Analyze Feedback</h4>
                 <div className="content">
-                  <p>Avoids paine produces resultant pleasure</p>
+                  <p>Fourth, we analyze the audience feedback</p>
                 </div>
               </div>
             </div>
@@ -313,180 +249,12 @@ const Services = () => {
             />
           </div>
         </div>
+        <br></br>
+        <br></br>
+        <br></br>
       </section>
       {/* Work Process Area end */}
       {/* Testimonial Area start */}
-      <section className="testimonial-section pt-95 rpt-65 pb-130 rpb-100">
-        <div className="container container-1210">
-          <div className="row">
-            <div className="col-lg-6">
-              <div className="image-border-shape rmb-20 wow fadeInRight delay-0-2s">
-                <img
-                  src="assets/images/testimonials/testimonials-four.jpg"
-                  alt="Testimonial Left Image"
-                />
-                <div className="bottom-border" />
-              </div>
-            </div>
-            <div className="col-lg-6">
-              <div className="testimonial-one-right-part wow fadeInLeft delay-0-2s">
-                <Swiper
-                  {...sliderProps.testimonialsActiveSwiper}
-                  className="testimonials-active"
-                >
-                  <SwiperSlide className="testimonial-item">
-                    <div className="author-speech">
-                      <p>
-                        <span className="quote">“</span> On the other hand we
-                        denounce with see righteous indignation and dislike men
-                        who are beguiled and demoralized by the charms offset
-                        pleasure moments line desire that they cannot foresee
-                        pain and trouble that are bound ensue and equal blame
-                        belongs their duty{" "}
-                        <span className="quote right-quote">“</span>
-                      </p>
-                    </div>
-                    <div className="testimonial-footer">
-                      <div className="testimonial-author">
-                        <div className="author-image">
-                          <img
-                            src="assets/images/testimonials/author1.png"
-                            alt="Author Image"
-                          />
-                        </div>
-                        <div className="author-info">
-                          <h4>James N. Johnson</h4>
-                          <span className="designation">CEO &amp; Founder</span>
-                        </div>
-                      </div>
-                      <div className="ratting style-two">
-                        <i className="fas fa-star" />
-                        <i className="fas fa-star" />
-                        <i className="fas fa-star" />
-                        <i className="fas fa-star" />
-                        <i className="fas fa-star-half-alt" />
-                      </div>
-                    </div>
-                  </SwiperSlide>
-                  <SwiperSlide className="testimonial-item">
-                    <div className="author-speech">
-                      <p>
-                        <span className="quote">“</span> On the other hand we
-                        denounce with see righteous indignation and dislike men
-                        who are beguiled and demoralized by the charms offset
-                        pleasure moments line desire that they cannot foresee
-                        pain and trouble that are bound ensue and equal blame
-                        belongs their duty{" "}
-                        <span className="quote right-quote">“</span>
-                      </p>
-                    </div>
-                    <div className="testimonial-footer">
-                      <div className="testimonial-author">
-                        <div className="author-image">
-                          <img
-                            src="assets/images/testimonials/author1.png"
-                            alt="Author Image"
-                          />
-                        </div>
-                        <div className="author-info">
-                          <h4>James N. Johnson</h4>
-                          <span className="designation">CEO &amp; Founder</span>
-                        </div>
-                      </div>
-                      <div className="ratting style-two">
-                        <i className="fas fa-star" />
-                        <i className="fas fa-star" />
-                        <i className="fas fa-star" />
-                        <i className="fas fa-star" />
-                        <i className="fas fa-star-half-alt" />
-                      </div>
-                    </div>
-                  </SwiperSlide>
-                  <SwiperSlide className="testimonial-item">
-                    <div className="author-speech">
-                      <p>
-                        <span className="quote">“</span> On the other hand we
-                        denounce with see righteous indignation and dislike men
-                        who are beguiled and demoralized by the charms offset
-                        pleasure moments line desire that they cannot foresee
-                        pain and trouble that are bound ensue and equal blame
-                        belongs their duty{" "}
-                        <span className="quote right-quote">“</span>
-                      </p>
-                    </div>
-                    <div className="testimonial-footer">
-                      <div className="testimonial-author">
-                        <div className="author-image">
-                          <img
-                            src="assets/images/testimonials/author1.png"
-                            alt="Author Image"
-                          />
-                        </div>
-                        <div className="author-info">
-                          <h4>James N. Johnson</h4>
-                          <span className="designation">CEO &amp; Founder</span>
-                        </div>
-                      </div>
-                      <div className="ratting style-two">
-                        <i className="fas fa-star" />
-                        <i className="fas fa-star" />
-                        <i className="fas fa-star" />
-                        <i className="fas fa-star" />
-                        <i className="fas fa-star-half-alt" />
-                      </div>
-                    </div>
-                  </SwiperSlide>
-                  <SwiperSlide className="testimonial-item">
-                    <div className="author-speech">
-                      <p>
-                        <span className="quote">“</span> On the other hand we
-                        denounce with see righteous indignation and dislike men
-                        who are beguiled and demoralized by the charms offset
-                        pleasure moments line desire that they cannot foresee
-                        pain and trouble that are bound ensue and equal blame
-                        belongs their duty{" "}
-                        <span className="quote right-quote">“</span>
-                      </p>
-                    </div>
-                    <div className="testimonial-footer">
-                      <div className="testimonial-author">
-                        <div className="author-image">
-                          <img
-                            src="assets/images/testimonials/author1.png"
-                            alt="Author Image"
-                          />
-                        </div>
-                        <div className="author-info">
-                          <h4>James N. Johnson</h4>
-                          <span className="designation">CEO &amp; Founder</span>
-                        </div>
-                      </div>
-                      <div className="ratting style-two">
-                        <i className="fas fa-star" />
-                        <i className="fas fa-star" />
-                        <i className="fas fa-star" />
-                        <i className="fas fa-star" />
-                        <i className="fas fa-star-half-alt" />
-                      </div>
-                    </div>
-                  </SwiperSlide>
-                </Swiper>
-                <div className="testimonial-controls mt-75 rmt-40">
-                  <button className="testimonial-prev slick-arrow">
-                    <i className="far fa-chevron-left" />
-                  </button>
-                  <div className="testimonial-dots">
-                    <div className="slick-dots"></div>
-                  </div>
-                  <button className="testimonial-next slick-arrow">
-                    <i className="far fa-chevron-right" />
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
       {/* Testimonial Area end */}
       {/* footer area start */}
     </Layout>

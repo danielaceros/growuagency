@@ -9,7 +9,7 @@ const DefaultFooter = ({ dark }) => {
       }}
     >
       <div className="container container-1290">
-        <div className="footer-top pt-80 pb-60">
+        <div className="footer-top pt-25 pb-20">
           <div className="row align-items-center">
             <div className="col-lg-4">
               <div className="footer-logo mb-20 wow fadeInRight delay-0-2s animated">
@@ -18,8 +18,8 @@ const DefaultFooter = ({ dark }) => {
                     <img
                       src={
                         dark
-                          ? "assets/images/logos/footer-logo-white.png"
-                          : "assets/images/logos/footer-logo.png"
+                          ? "assets/images/logos/gc.png"
+                          : "assets/images/logos/gc.png"
                       }
                       alt="Logo"
                     />
@@ -29,22 +29,14 @@ const DefaultFooter = ({ dark }) => {
             </div>
             <div className="col-lg-8 text-lg-end">
               <div className="social-style-four mb-20 wow fadeInLeft delay-0-2s animated">
-                <a href="#">
-                  <i className="fab fa-facebook-f" /> <span>Facebook</span>
-                </a>
-                <a href="#">
-                  <i className="fab fa-twitter" /> <span>Twitter</span>
-                </a>
-                <a href="#">
-                  <i className="fab fa-dribbble" /> <span>Dribbble</span>
-                </a>
-                <a href="#">
-                  <i className="fab fa-behance" /> <span>Behance</span>
+                <a href="https://instagram.com/growuagency" target="_blank">
+                  <i className="fab fa-instagram" /> <span>Instagram</span>
                 </a>
               </div>
             </div>
           </div>
         </div>
+        <div id="contact"></div>
         <div className="row">
           <div className="col-lg-8">
             <div className="footer-left-content pt-80">
@@ -79,56 +71,34 @@ const DefaultFooter = ({ dark }) => {
               <div className="footer-widget widget_nav_menu">
                 <ul className="list-style-two wow fadeInUp delay-0-3s animated">
                   <li>
-                    <Link legacyBehavior href="about">
+                    <a href="#">
                       Home
-                    </Link>
+                    </a>
                   </li>
                   <li>
-                    <Link legacyBehavior href="services">
-                      Popular Services
-                    </Link>
+                    <a href="#about">
+                      About
+                    </a>
                   </li>
                   <li>
-                    <Link legacyBehavior href="team">
-                      Team Member
-                    </Link>
+                    <a href="#services">
+                      Services
+                    </a>
                   </li>
                   <li>
-                    <Link legacyBehavior href="blog">
-                      Latest News
-                    </Link>
+                    <a href="#numbers">
+                      Numbers
+                    </a>
                   </li>
                   <li>
-                    <Link legacyBehavior href="contact">
-                      Contact Us?
-                    </Link>
-                  </li>
-                </ul>
-                <ul className="list-style-two wow fadeInUp delay-0-4s animated">
-                  <li>
-                    <Link legacyBehavior href="index">
-                      UI/UX Design
-                    </Link>
+                    <a href="#clients">
+                      Clients
+                    </a>
                   </li>
                   <li>
-                    <Link legacyBehavior href="index2">
-                      Development
-                    </Link>
-                  </li>
-                  <li>
-                    <Link legacyBehavior href="index3">
-                      Marketing
-                    </Link>
-                  </li>
-                  <li>
-                    <Link legacyBehavior href="contact">
-                      Need a Career
-                    </Link>
-                  </li>
-                  <li>
-                    <Link legacyBehavior href="faqs">
-                      Faqs ?
-                    </Link>
+                    <a href="#contact">
+                      Contact
+                    </a>
                   </li>
                 </ul>
               </div>
@@ -136,46 +106,21 @@ const DefaultFooter = ({ dark }) => {
           </div>
         </div>
         <div className="footer-bottom">
-          <div className="row align-items-center">
-            <div className="col-xl-8 col-lg-6">
-              <div className="footer-bottom-menu pt-40 pb-35 rpb-0 wow fadeInRight delay-0-2s animated">
-                <ul>
-                  <li>
-                    <Link legacyBehavior href="/about">
-                      <a>About</a>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link legacyBehavior href="services">
-                      Services
-                    </Link>
-                  </li>
-                  <li>
-                    <Link legacyBehavior href="/faqs">
-                      <a>FAQs</a>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link legacyBehavior href="services">
-                      How IT Works
-                    </Link>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div className="col-xl-4 col-lg-6">
-              <div className="copyright-text text-lg-end pt-40 pb-35 rpt-10 wow fadeInLeft delay-0-2s animated">
-                <p>
-                  Copyright{" "}
-                  <Link legacyBehavior href="/">
-                    <a>GrowUAgency®</a>
-                  </Link>{" "}
-                  All Rights Reserved
-                </p>
-              </div>
+        <div className="row align-items-center">
+          <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+          <div className="">
+            <div className="pt-40 pb-35 rpt-10 wow fadeInLeft delay-0-2s animated">
+              <p>
+                Copyright{" "}
+                <Link legacyBehavior href="/">
+                  <a>GrowUAgency®</a>
+                </Link>{" "}
+                All Rights Reserved. Developed by <u><a href="https:linktr.ee/danielacer">Daniel Acero</a></u> with passion and love 🖤
+              </p>
             </div>
           </div>
         </div>
+      </div>
       </div>
     </footer>
   );

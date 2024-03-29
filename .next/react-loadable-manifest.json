@@ -83,8 +83,14 @@
       "static/chunks/reactPlayerYouTube.js"
     ]
   },
-  "index1-onepage.jsx -> @/src/components/Counter": {
-    "id": "index1-onepage.jsx -> @/src/components/Counter",
+  "about.jsx -> @/src/components/Counter": {
+    "id": "about.jsx -> @/src/components/Counter",
+    "files": [
+      "static/chunks/src_components_Counter_js.js"
+    ]
+  },
+  "index.jsx -> @/src/components/Counter": {
+    "id": "index.jsx -> @/src/components/Counter",
     "files": [
       "static/chunks/src_components_Counter_js.js"
     ]

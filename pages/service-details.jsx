@@ -284,7 +284,7 @@ const ServiceDetails = () => {
                 <div className="text-shape">
                   <img
                     className="text"
-                    src="assets/images/services/web-design-text-two.svg"
+                    src="/images/services/web-design-text-two.svg"
                     alt="Web Design Text"
                   />
                 </div>
