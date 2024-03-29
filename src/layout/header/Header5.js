@@ -87,7 +87,7 @@ const Header5 = ({ singleMenu, dark }) => {
                 </div>
                 <div className="content">
                   <span>Call Anytime</span>
-                  <a href="callto:985236425288">98 523 642 5288</a>
+                  <a href="tel:985236425288">98 523 642 5288</a>
                 </div>
               </div>
               {/* menu sidbar */}
