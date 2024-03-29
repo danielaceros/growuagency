@@ -115,7 +115,7 @@ const DefaultFooter = ({ dark }) => {
                 <Link legacyBehavior href="/">
                   <a>GrowUAgency®</a>
                 </Link>{" "}
-                All Rights Reserved. Developed by <u><a href="https:linktr.ee/danielacer">Daniel Acero</a></u> with passion and love 🖤
+                All Rights Reserved. Developed by <u><a href="https://linktr.ee/danielacer">Daniel Acero</a></u> with passion and love 🖤
               </p>
             </div>
           </div>
