@@ -9,7 +9,7 @@ const ScrollTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
   return (
-    <button className="scroll-top scroll-to-target" onClick={() => scrollTop()}>
+    <button className="scroll-top scroll-to-target align-left" onClick={() => scrollTop()}>
       <span className="fas fa-angle-double-up" />
     </button>
   );

@@ -53,7 +53,7 @@ const About = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-6 wow fadeInLeft delay-0-2s">
-              <div className="client-text text-lg-start text-center mt-40 pb-50">
+              <div className="client-text text-lg-start text-center mt-30 pb-50">
               Transforming ideas into digital realities with innovative strategies to boost your online presence. <br></br>Grow your brand with us! Our clients have been trusting us since:
               </div>
               <div className="row">
@@ -87,7 +87,7 @@ const About = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-6 wow fadeInRight delay-0-2s">
+            <div className="col-lg-6 wow fadeInRight delay-0-2s mb-100">
               <div className="video-year text-lg-end text-center rel">
                 2018
                 <img
@@ -97,6 +97,7 @@ const About = () => {
                 />
               </div>
             </div>
+            
           </div>
         </div>
       </div>
@@ -165,8 +166,8 @@ const About = () => {
             <div className="col-xl-2 col-lg-3 col-6">
               <div className="counter-item counter-text-wrap wow fadeInUp delay-0-3s">
                 <i className="fal fa-check-circle" />
-                <Counter end={64} extraClass={"k"} />
-                <span className="counter-title">Grows</span>
+                <Counter end={8} extraClass={"k"} />
+                <span className="counter-title">Accounts Growed</span>
               </div>
             </div>
             <div className="col-xl-2 col-lg-3 col-6">

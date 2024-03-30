@@ -1,8 +1,11 @@
 import Link from "next/link";
 import Nav from "./Nav";
 import NavSearch from "./NavSearch";
+import { PopupModal } from "react-calendly";
+import React from "react";
 
 const DefaultHeader = ({ singleMenu, dark }) => {
+  const [isOpen, setisOpen] = React.useState(false)
   return (
     <header className="main-header menu-absolute">
       {/*Header-Upper*/}
@@ -37,14 +40,25 @@ const DefaultHeader = ({ singleMenu, dark }) => {
             <div className="menu-btns">
               {/* menu sidbar */}
               <div className="menu-sidebar">
-                  <button disabled>
-                  <a href="tel:+34629819696" target="_blank">
-                  <i className="far fa-calendar-alt" style={{
+                  <div>
+                  <button
+                    style={{ display: "block", margin: "0 auto" }}
+                    onClick={() => setisOpen(true)}
+                  >
+                    <i className="far fa-calendar-alt" style={{
                     color: "black"
                   }}/>
-                  </a>
                   </button>
+                  <PopupModal
+                    url="https://calendly.com/danielaceros/growuagency"
+                    onModalClose={() => setisOpen(false)}
+                    open={isOpen}
+   
+                    rootElement={document.getElementById("__next")}
+                  />
+                </div>
               </div>
+              
             </div>
           </div>
         </div>

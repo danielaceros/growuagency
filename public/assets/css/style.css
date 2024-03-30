@@ -856,8 +856,8 @@ a.theme-btn {
 /*** Scroll Top style ***/
 .scroll-top {
   position: fixed;
-  bottom: 25px;
-  right: 0;
+  bottom: 17px;
+  left: 15px; /* Align to the left */
   width: 40px;
   height: 40px;
   z-index: 99;
@@ -868,7 +868,8 @@ a.theme-btn {
   border-radius: 5px;
   background: var(--ygency-primary-color);
   -webkit-animation: pulse 2s infinite;
-  animation: pulse 2s infinite; }
+  animation: pulse 2s infinite;
+}
 
 /* Text White */
 .text-white *, .text-white a,
@@ -9860,3 +9861,4 @@ blockquote {
           font-size: 20px;
           line-height: 60px;
           left: calc(50% - 30px); } }
+

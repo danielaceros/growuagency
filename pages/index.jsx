@@ -179,8 +179,8 @@ const Index = () => {
             <div className="col-xl-2 col-lg-3 col-6">
               <div className="counter-item counter-text-wrap wow fadeInUp delay-0-3s">
                 <i className="fal fa-check-circle" />
-                <Counter end={64} extraClass={"k"} />
-                <span className="counter-title">Grows</span>
+                <Counter end={8} extraClass={"k"} />
+                <span className="counter-title">Accounts Growed</span>
               </div>
             </div>
             <div className="col-xl-2 col-lg-3 col-6">

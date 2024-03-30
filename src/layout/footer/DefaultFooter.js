@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { PopupWidget } from "react-calendly";
 
 const DefaultFooter = ({ dark }) => {
   return (
@@ -8,7 +9,15 @@ const DefaultFooter = ({ dark }) => {
         backgroundImage: "url(assets/images/footer/footer-bg-shape.png)",
       }}
     >
+      <PopupWidget
+    url="https://calendly.com/danielaceros/growuagency"
+    rootElement={document.getElementById("__next")}
+    text="Book a FREE Consulting 🚀"
+    textColor="#ffffff"
+    color="#55e6a5"
+  />
       <div className="container container-1290">
+      <div className="mx-4 sm:mx-0">
         <div className="footer-top pt-25 pb-20">
           <div className="row align-items-center">
             <div className="col-lg-4">
@@ -109,17 +118,21 @@ const DefaultFooter = ({ dark }) => {
         <div className="row align-items-center">
           <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
           <div className="">
-            <div className="pt-40 pb-35 rpt-10 wow fadeInLeft delay-0-2s animated">
-              <p>
-                Copyright{" "}
+            <div className="mb-40 wow fadeInLeft delay-0-2s animated">
+              <p style={{
+                fontSize: "12px"
+              }}>
                 <Link legacyBehavior href="/">
                   <a>GrowUAgency®</a>
                 </Link>{" "}
-                All Rights Reserved. Developed by <u><a href="https://linktr.ee/danielacer">Daniel Acero</a></u> with passion and love 🖤
+                Developed by <u><a href="https://linktr.ee/danielacer">Daniel Acero</a></u> with passion 🖤
               </p>
+              <p><br></br></p>
             </div>
           </div>
         </div>
+        
+      </div>
       </div>
       </div>
     </footer>

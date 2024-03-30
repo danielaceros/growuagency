@@ -5,7 +5,7 @@ const Nav = ({ singleMenu }) => {
   return (
     <nav className="main-menu navbar-expand-lg">
       <Accordion>
-        <div className="navbar-header py-10">
+        <div className="navbar-header py-0">
           <div className="mobile-logo">
             <Link legacyBehavior href="/">
               <a>
