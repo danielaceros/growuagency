@@ -5,11 +5,9 @@ import { animation, sidebarClick } from "../utils";
 import ScrollTop from "./ScrollTop";
 import Footer from "./footer/Footer";
 import Header from "./header/Header";
-import SideBar from "./header/SideBar";
 const Layout = ({ children, header, footer, singleMenu, dark }) => {
   useEffect(() => {
     animation();
-    sidebarClick();
   }, []);
 
   return (
@@ -18,7 +16,6 @@ const Layout = ({ children, header, footer, singleMenu, dark }) => {
       <ImageView />
       <div className="page-wrapper">
         <Header header={header} singleMenu={singleMenu} dark={dark} />
-        <SideBar />
         {children}
         <Footer footer={footer} dark={dark} />
         <ScrollTop />
