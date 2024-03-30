@@ -48,37 +48,43 @@ const DaskTopMenu = () => {
 
 const MobileMenu = () => {
   const [activeMenu, setActiveMenu] = useState("");
-  const [multiMenu, setMultiMenu] = useState("");
-  const activeMenuSet = (value) =>
-      setActiveMenu(activeMenu === value ? "" : value),
-    activeLi = (value) =>
-      value === activeMenu ? { display: "block" } : { display: "none" };
-  const multiMenuSet = (value) =>
-      setMultiMenu(multiMenu === value ? "" : value),
-    multiMenuActiveLi = (value) =>
-      value === multiMenu ? { display: "block" } : { display: "none" };
+  
   return (
     <ul className="navigation d-block d-lg-none mobile-menu">
       <li className="dropdown">
-        <a href="/#">Home</a>    
+        <Link href="/#">
+          Home
+        </Link>
       </li>
       <li>
-        <a href="/#about">about</a>
+        <Link href="/#about">
+          about
+        </Link>
       </li>
       <li className="dropdown">
-        <a href="/#services">services</a>
+        <Link href="/#services">
+          services
+        </Link>
       </li>
       <li className="dropdown">
-        <a href="/#numbers">numbers</a>
+        <Link href="/#numbers">
+          numbers
+        </Link>
       </li>
       <li className="dropdown">
-        <a href="/#clients">clients</a>
+        <Link href="/#clients">
+          clients
+        </Link>
       </li>
       <li className="dropdown">
-        <a href="/#team">team</a>
+        <Link href="/#team">
+          team
+        </Link>
       </li>
       <li className="dropdown">
-        <a href="/#contact">contact</a>
+        <Link href="/#contact">
+          contact
+        </Link>
       </li>
     </ul>
   );
