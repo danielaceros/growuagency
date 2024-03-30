@@ -80,32 +80,32 @@ const DefaultFooter = ({ dark }) => {
               <div className="footer-widget widget_nav_menu">
                 <ul className="list-style-two wow fadeInUp delay-0-3s animated">
                   <li>
-                    <a href="#">
+                    <a href="/#">
                       Home
                     </a>
                   </li>
                   <li>
-                    <a href="#about">
+                    <a href="/#about">
                       About
                     </a>
                   </li>
                   <li>
-                    <a href="#services">
+                    <a href="/#services">
                       Services
                     </a>
                   </li>
                   <li>
-                    <a href="#numbers">
+                    <a href="/#numbers">
                       Numbers
                     </a>
                   </li>
                   <li>
-                    <a href="#clients">
+                    <a href="/#clients">
                       Clients
                     </a>
                   </li>
                   <li>
-                    <a href="#contact">
+                    <a href="/#contact">
                       Contact
                     </a>
                   </li>

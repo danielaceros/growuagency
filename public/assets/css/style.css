@@ -856,7 +856,7 @@ a.theme-btn {
 /*** Scroll Top style ***/
 .scroll-top {
   position: fixed;
-  bottom: 17px;
+  bottom: 17.5px;
   left: 15px; /* Align to the left */
   width: 40px;
   height: 40px;

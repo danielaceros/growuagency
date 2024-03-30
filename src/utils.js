@@ -25,7 +25,20 @@ export const stickyNav = () => {
 };
 
 export const sidebarClick = () => {
-  
+  const buttons = document.querySelectorAll(".menu-sidebar button");
+  const backDrop = document.querySelector(".form-back-drop");
+  const crossIcon = document.querySelector(".cross-icon");
+  buttons.forEach((btn) => {
+    btn.addEventListener("click", () => {
+      document.querySelector("body").classList.add("side-content-visible");
+    });
+  });
+  backDrop.addEventListener("click", () => {
+    document.querySelector("body").classList.remove("side-content-visible");
+  });
+  crossIcon.addEventListener("click", () => {
+    document.querySelector("body").classList.remove("side-content-visible");
+  });
 };
 
 export const scrollTopFun = () => {
