@@ -29,7 +29,7 @@ export default function App({ Component, pageProps }) {
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
         {/* Title */}
-        <title>GrowUAgency - The SMMA Agency</title>
+        <title>GrowUAgency® - The SMMA Agency</title>
         {/* Favicon Icon */}
         <link
           rel="shortcut icon"

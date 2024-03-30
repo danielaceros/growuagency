@@ -116,6 +116,7 @@ const DefaultFooter = ({ dark }) => {
         </div>
         <div className="footer-bottom">
         <div className="row align-items-center">
+          <p><br></br></p>
           <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
           <div className="">
             <div className="mb-40 wow fadeInLeft delay-0-2s animated">
@@ -125,7 +126,7 @@ const DefaultFooter = ({ dark }) => {
                 <Link legacyBehavior href="/">
                   <a>GrowUAgency®</a>
                 </Link>{" "}
-                Developed by <u><a href="https://linktr.ee/danielacer">Daniel Acero</a></u> with passion 🖤
+                 by <u><a href="https://linktr.ee/danielacer">Daniel Acero</a></u> for passion and with love 🖤
               </p>
               <p><br></br></p>
             </div>
