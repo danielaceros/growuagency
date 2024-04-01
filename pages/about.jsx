@@ -152,41 +152,41 @@ const About = () => {
       </div>
       {/* Headline Area end */}
       {/* Team Area start */}
-      <div className="statistics-area pt-75 rpt-45 rel z-1">
-        <div className="container">
-          <div className="row justify-content-between">
+      <div className="statistics-area pt-75 rpt-45 rel z-1 d-flex justify-content-center align-items-center">
+      <div className="container">
+        <div className="row justify-content-between mx-auto">
           <div id="solutions"></div>
-            <div className="col-xl-2 col-lg-3 col-6">
-              <div className="counter-item counter-text-wrap wow fadeInUp delay-0-2s">
-                <i className="fal fa-check-circle" />
-                <Counter end={6} />
-                <span className="counter-title">Years Of Experience</span>
-              </div>
+          <div className="col-xl-2 col-lg-3 col-6 mx-auto">
+            <div className="counter-item counter-text-wrap wow fadeInUp delay-0-2s">
+              <i className="fal fa-check-circle" />
+              <Counter end={6} />
+              <span className="counter-title">Years Of Experience</span>
             </div>
-            <div className="col-xl-2 col-lg-3 col-6">
-              <div className="counter-item counter-text-wrap wow fadeInUp delay-0-3s">
-                <i className="fal fa-check-circle" />
-                <Counter end={8} extraClass={"k"} />
-                <span className="counter-title">Accounts Growed</span>
-              </div>
+          </div>
+          <div className="col-xl-2 col-lg-3 col-6 mx-auto">
+            <div className="counter-item counter-text-wrap wow fadeInUp delay-0-3s">
+              <i className="fal fa-check-circle" />
+              <Counter end={4} extraClass={"k"} />
+              <span className="counter-title">Accounts Growed</span>
             </div>
-            <div className="col-xl-2 col-lg-3 col-6">
-              <div className="counter-item counter-text-wrap wow fadeInUp delay-0-4s">
-                <i className="fal fa-check-circle" />
-                <Counter end={48} />
-                <span className="counter-title">Current Clients</span>
-              </div>
+          </div>
+          <div className="col-xl-2 col-lg-3 col-6 mx-auto">
+            <div className="counter-item counter-text-wrap wow fadeInUp delay-0-4s">
+              <i className="fal fa-check-circle" />
+              <Counter end={48} />
+              <span className="counter-title">Current Clients</span>
             </div>
-            <div className="col-xl-2 col-lg-3 col-6">
-              <div className="counter-item counter-text-wrap wow fadeInUp delay-0-5s">
-                <i className="fal fa-check-circle" />
-                <Counter end={4} extraClass={"k"}/>
-                <span className="counter-title">Projects Finished</span>
-              </div>
+          </div>
+          <div className="col-xl-2 col-lg-3 col-6 mx-auto">
+            <div className="counter-item counter-text-wrap wow fadeInUp delay-0-5s">
+              <i className="fal fa-check-circle" />
+              <Counter end={8} extraClass={"k"}/>
+              <span className="counter-title">Projects Finished</span>
             </div>
           </div>
         </div>
       </div>
+    </div>
       <section className="team-area pt-70 rpt-40">
         <div className="container">
           <div className="row justify-content-center">

@@ -156,6 +156,7 @@ const Index = () => {
                 <img
                   src="assets/images/services/what-we-do.jpg"
                   alt="What We Do"
+                  className="img-fluid mx-auto w-100"
                 />
               </div>
             </div>
@@ -165,41 +166,41 @@ const Index = () => {
       <div id="numbers"></div>
       {/* What We Do end */}
       {/* Statistics Area start */}
-      <div className="statistics-area pt-75 rpt-45 rel z-1">
-        <div className="container">
-          <div className="row justify-content-between">
+      <div className="statistics-area pt-75 rpt-45 rel z-1 d-flex justify-content-center align-items-center">
+      <div className="container">
+        <div className="row justify-content-between mx-auto">
           <div id="solutions"></div>
-            <div className="col-xl-2 col-lg-3 col-6">
-              <div className="counter-item counter-text-wrap wow fadeInUp delay-0-2s">
-                <i className="fal fa-check-circle" />
-                <Counter end={6} />
-                <span className="counter-title">Years Of Experience</span>
-              </div>
+          <div className="col-xl-2 col-lg-3 col-6 mx-auto">
+            <div className="counter-item counter-text-wrap wow fadeInUp delay-0-2s">
+              <i className="fal fa-check-circle" />
+              <Counter end={6} />
+              <span className="counter-title">Years Of Experience</span>
             </div>
-            <div className="col-xl-2 col-lg-3 col-6">
-              <div className="counter-item counter-text-wrap wow fadeInUp delay-0-3s">
-                <i className="fal fa-check-circle" />
-                <Counter end={8} extraClass={"k"} />
-                <span className="counter-title">Accounts Growed</span>
-              </div>
+          </div>
+          <div className="col-xl-2 col-lg-3 col-6 mx-auto">
+            <div className="counter-item counter-text-wrap wow fadeInUp delay-0-3s">
+              <i className="fal fa-check-circle" />
+              <Counter end={4} extraClass={"k"} />
+              <span className="counter-title">Accounts Growed</span>
             </div>
-            <div className="col-xl-2 col-lg-3 col-6">
-              <div className="counter-item counter-text-wrap wow fadeInUp delay-0-4s">
-                <i className="fal fa-check-circle" />
-                <Counter end={48} />
-                <span className="counter-title">Current Clients</span>
-              </div>
+          </div>
+          <div className="col-xl-2 col-lg-3 col-6 mx-auto">
+            <div className="counter-item counter-text-wrap wow fadeInUp delay-0-4s">
+              <i className="fal fa-check-circle" />
+              <Counter end={48} />
+              <span className="counter-title">Current Clients</span>
             </div>
-            <div className="col-xl-2 col-lg-3 col-6">
-              <div className="counter-item counter-text-wrap wow fadeInUp delay-0-5s">
-                <i className="fal fa-check-circle" />
-                <Counter end={4} extraClass={"k"}/>
-                <span className="counter-title">Projects Finished</span>
-              </div>
+          </div>
+          <div className="col-xl-2 col-lg-3 col-6 mx-auto">
+            <div className="counter-item counter-text-wrap wow fadeInUp delay-0-5s">
+              <i className="fal fa-check-circle" />
+              <Counter end={8} extraClass={"k"}/>
+              <span className="counter-title">Projects Finished</span>
             </div>
           </div>
         </div>
       </div>
+    </div>
       {/* Statistics Area end */}
       {/* Service Style Three start */}
       <section className="service-three-area pt-70 rpt-40 rel z-1">
@@ -252,7 +253,7 @@ const Index = () => {
                 </div>
               </div>
             </div>
-            <div className="col-xl-3 col-lg-4 col-md-6">
+            <div className="col-xl-3 col-lg-12 col-md-6">
               <div className="service-three-item wow fadeInDown delay-0-2s">
                 <div className="title-icon">
                   <h5>
