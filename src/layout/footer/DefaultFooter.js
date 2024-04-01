@@ -59,9 +59,9 @@ const DefaultFooter = ({ dark }) => {
               <div className="footer-contact-info wow fadeInUp delay-0-3s animated">
                 <a
                   className="theme-btn style-three"
-                  href="mailto:hello@growuagency"
+                  href="mailto:hello@growuagency.com"
                 >
-                  hello@growuagency <i className="far fa-arrow-right" />
+                  hello@growuagency.com<i className="far fa-arrow-right" />
                 </a>
                 <a
                   className="theme-btn style-three phone-number"
