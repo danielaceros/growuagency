@@ -5175,7 +5175,7 @@ h6, .h6 {
   -o-transition: 0.5s;
   transition: 0.5s;
   margin-bottom: 30px;
-  padding: 50px 50px 30px;
+  padding: 5% 5%;
   background-color: #0A1019; }
   @media only screen and (max-width: 767px) {
     .service-item {
@@ -5202,9 +5202,10 @@ h6, .h6 {
     -o-transition: 0.5s;
     transition: 0.5s; }
   .service-item:hover {
-    background-color: var(--ygency-primary-color); }
-    .service-item:hover p, .service-item:hover h5, .service-item:hover h5 a, .service-item:hover .icon {
-      color: var(--ygency-dark-color); }
+    -webkit-box-shadow: 0px 4px 60px rgba(85, 230, 165, 0.2);
+    box-shadow: 0px 4px 60px rgba(85, 230, 165, 0.2); 
+  }
+    .service-item:hover p, .service-item:hover h5, .service-item:hover h5 a, .service-item:hover .icon {}
   .service-item.style-two {
     padding-top: 40px;
     text-align: center;
@@ -6549,7 +6550,7 @@ blockquote {
   .counter-item .count-text {
     display: block;
     line-height: 1;
-    font-size: 120px;
+    font-size: 80px;
     -webkit-transition: 0.25s;
     -o-transition: 0.25s;
     transition: 0.25s;
@@ -6602,7 +6603,7 @@ blockquote {
   .counter-item-two .count-text {
     display: block;
     line-height: 1;
-    font-size: 48px;
+    font-size: 40px;
     font-weight: 600;
     margin-bottom: 5px; }
 
@@ -9861,4 +9862,3 @@ blockquote {
           font-size: 20px;
           line-height: 60px;
           left: calc(50% - 30px); } }
-

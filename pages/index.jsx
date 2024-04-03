@@ -3,12 +3,86 @@ import { sliderProps } from "@/src/sliderProps";
 import dynamic from "next/dynamic";
 import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { useRouter } from 'next/router'
+import { useSearchParams } from 'next/navigation'
+import { Chart } from "react-google-charts";
+import React from "react";
+import { useEffect } from "react";
+import Image from "next/image";
+import {BrowserView, MobileView} from 'react-device-detect';
 
 const Counter = dynamic(() => import("@/src/components/Counter"), {
   ssr: false,
 });
-
 const Index = () => {
+  const [userData, setUserData] = React.useState(null);
+  const searchParams = useSearchParams();
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await fetch(`/api/hello?ig=${searchParams.get("ig")}`);
+        if (!response.ok) {
+          throw new Error('Network response was not ok');
+        }
+        const userData = await response.json(); 
+        setUserData(userData);
+      } catch (error) {
+        console.error('Error fetching data:', error);
+      }
+    };
+    fetchData(); 
+  }, []);
+  var options = {
+    hAxis: { title: "Months", titleTextStyle: {
+      color: '#ffffff',
+      fontSize: 18,
+      fontName: "Inter",
+      italic: false
+    }, textStyle: {
+      color: '#ffffff',
+      fontSize: 14,
+      fontName: "Inter"
+    }},
+    vAxis: { title: "Followers", minValue: 0, titleTextStyle: {
+      color: '#ffffff',
+      fontSize: 18,
+      fontName: "Inter",
+      italic: false
+    }, textStyle: {
+      color: '#ffffff',
+      fontSize: 14,
+      fontName: "Inter"
+    }},
+    backgroundColor: 'transparent',
+    titleTextStyle: {
+      color: '#ffffff',
+      fontSize: 28,
+      fontName: "Inter"
+    },
+    title: `Summary of growth for @${searchParams.get("ig")}`,
+    colors: ["#ffffff", "#55e6a5"],
+    legend: {position: 'right', maxLines: 3, color: "black", textStyle: {
+      color: '#ffffff',
+      fontSize: 14,
+      fontName: "Inter"
+    }},
+    lineWidth: 2,
+ };
+ const data = [
+  ["Month", "followers without GrowU®", "followers with GrowU®"],
+  ["1", parseInt(userData?.follower_count*1.1), parseInt(userData?.follower_count**1)],
+  ["2", parseInt(userData?.follower_count*1.2), parseInt(userData?.follower_count**1.020)],
+  ["3", parseInt(userData?.follower_count*1.3), parseInt(userData?.follower_count**1.040)],
+  ["4", parseInt(userData?.follower_count*1.4), parseInt(userData?.follower_count**1.060)],
+  ["5", parseInt(userData?.follower_count*1.5), parseInt(userData?.follower_count**1.080)],
+  ["6", parseInt(userData?.follower_count*1.6), parseInt(userData?.follower_count**1.100)],
+  ["7", parseInt(userData?.follower_count*1.7), parseInt(userData?.follower_count**1.115)],
+  ["8", parseInt(userData?.follower_count*1.8), parseInt(userData?.follower_count**1.130)],
+  ["9", parseInt(userData?.follower_count*1.9), parseInt(userData?.follower_count**1.145)],
+  ["10", parseInt(userData?.follower_count*2), parseInt(userData?.follower_count**1.160)],
+  ["11", parseInt(userData?.follower_count*2.1), parseInt(userData?.follower_count**1.175)],
+  ["12", parseInt(userData?.follower_count*2.2), parseInt(userData?.follower_count**1.190)],
+];
   return (
     <Layout dark>
       {/* Hero Section Start */}
@@ -36,8 +110,6 @@ const Index = () => {
           <img src="assets/images/hero/hero-bg.png" alt="lines" />
         </div>
       </section>
-      {/* Hero Section End */}
-      {/* About Us Area start */}
       <div id="about"></div>
       <section className="about-area pt-130 rpt-100 rel z-1">
         <div className="container">
@@ -54,15 +126,18 @@ const Index = () => {
               <div className="about"></div>
               <div className="about-content wow fadeInUp delay-0-4s">
                 <div className="section-title mb-40">
-                  <span className="sub-title mb-15">About Us</span>
+                  <span className="sub-title mb-15">meet Us @{ searchParams.get("ig") }</span>
                   <h2>
-                    We make brands and public figures grow in social media
+                  We make brands and public figures grow in social media
                   </h2>
                 </div>
                 <div className="content">
-                  <p>
-                    We're a flexible SMMA focused on the client, we make special strategies for our clients, also we take care for every detail, and we have flexible fares adaptaded easily to the final client.
-                  </p>
+                {searchParams.get("ig") && <p>
+                    We're a flexible SMMA focused on you <b>@{ searchParams.get("ig") }</b>, we make special strategies for our clients, also we take care for every detail, and we have flexible fares adaptaded easily to you.
+                  </p>}
+                {!searchParams.get("ig") && <p>
+                    We're a flexible SMMA focused on our customers, we make special strategies for our clients, also we take care for every detail, and we have flexible fares adaptaded easily to our customers.
+                  </p>}
                   <Link legacyBehavior href="/about">
                     <a className="read-more mt-10">
                       Read More <i className="far fa-arrow-right" />
@@ -74,6 +149,69 @@ const Index = () => {
           </div>
         </div>
       </section>
+      { userData && searchParams.get("ig") && <section className="service-three-area pt-70 rpt-40 rel z-1">
+        <div className="container">
+          <div className="row">
+            <div className="col-xl-12 col-lg-12 col-md-12">
+              <div className="service-item wow fadeInDown delay-0-2s">
+                { userData.profile_pic_url && 
+                     <Image src={userData.profile_pic_url} height={80} width={80} style={{
+                      borderRadius: "50%"
+                     }} alt="Icon" />}
+                <div className="title-icon">
+                <p>
+                  { userData.username && <h3>
+                      @{userData.username} {" "}
+                      { userData.is_verified && <i style={{
+                        fontSize: "20px"
+                      }} className="fas fa-badge-check"></i>}
+                  </h3>} 
+                  { userData.full_name && <h4>
+                      {userData.full_name}
+                  </h4>}
+                  { userData.biography && <h5>
+                      {userData.biography}
+                  </h5>}</p>
+                  <p>{}</p>
+                  <div className="container">
+                  <div className="row justify-content-between mx-auto">
+                  <BrowserView>
+                    {userData.follower_count && <div className="col-xl-12 col-lg-12 col-12">
+                      <div className="counter-item counter-text-wrap wow fadeInUp delay-0-4s">
+                        <i className="far fa-user-circle" />
+                        <Counter end={userData.follower_count/1000} decimals={1} extraClass={"k"} />
+                        <span className="counter-title">Followers</span>
+                      </div>
+                    </div>}
+                  </BrowserView>
+                  </div>
+                </div>
+                </div>
+                <MobileView>
+                {userData.follower_count && <div className="col-xl-12 col-lg-12 col-12">
+                      <div className="counter-item counter-text-wrap wow fadeInUp delay-0-4s">
+                        <i className="far fa-user-circle" />
+                        <Counter end={userData.follower_count/1000} decimals={1} extraClass={"k"} />
+                        <span className="counter-title">Followers</span>
+                      </div>
+                    </div>}
+                </MobileView>
+                          <Chart
+                  chartType="AreaChart"
+                  data={data}
+                  width="100%"
+                  height="80vh"
+                  legendToggle
+                  options={options}
+                />
+                <p>This graph was made for the profile <b>@{searchParams.get("ig")}</b> by our GrowU AI®, this is a prediction and may not fit at all with the real scenario, take it into account.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>}
+      <div>
+      </div>
       {/* About Us Area end */}
       {/* Headline area start */}
       <div className="headline-area pt-90 rpt-85 rel z-1">
