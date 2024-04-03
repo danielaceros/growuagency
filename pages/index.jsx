@@ -56,12 +56,12 @@ const Index = () => {
     backgroundColor: 'transparent',
     titleTextStyle: {
       color: '#ffffff',
-      fontSize: 28,
+      fontSize: 22,
       fontName: "Inter"
     },
     title: `Summary of growth for @${searchParams.get("ig")}`,
     colors: ["#ffffff", "#55e6a5"],
-    legend: {position: 'right', maxLines: 3, color: "black", textStyle: {
+    legend: {position: 'top', maxLines: 3, color: "black", textStyle: {
       color: '#ffffff',
       fontSize: 14,
       fontName: "Inter"
