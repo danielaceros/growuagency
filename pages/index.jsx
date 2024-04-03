@@ -61,15 +61,15 @@ const Index = () => {
     },
     title: `Summary of growth for @${searchParams.get("ig")}`,
     colors: ["#ffffff", "#55e6a5"],
-    legend: {position: 'top', maxLines: 3, color: "black", textStyle: {
+    legend: {position: 'top', maxLines: 2, color: "black", textStyle: {
       color: '#ffffff',
-      fontSize: 14,
+      fontSize: 10,
       fontName: "Inter"
     }},
     lineWidth: 2,
  };
  const data = [
-  ["Month", "followers without GrowU®", "followers with GrowU®"],
+  ["Month", "without GrowU®", "with GrowU®"],
   ["1", parseInt(userData?.follower_count*1.1), parseInt(userData?.follower_count**1)],
   ["2", parseInt(userData?.follower_count*1.2), parseInt(userData?.follower_count**1.020)],
   ["3", parseInt(userData?.follower_count*1.3), parseInt(userData?.follower_count**1.040)],
