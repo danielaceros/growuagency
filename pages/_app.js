@@ -56,7 +56,15 @@ export default function App({ Component, pageProps }) {
         {/* Slick */}
         <link rel="stylesheet" href="assets/css/slick.min.css" />
         {/* Main Style */}
-        <link rel="stylesheet" href="assets/css/style.css" />
+        <link rel="stylesheet" href="assets/css/style.css" />ç
+        <script
+          id="mcjs"
+          dangerouslySetInnerHTML={{
+            __html: `
+              !function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/5c66f57b3b904f157fa58f48c/a42f1325c5cc6215950c78662.js");
+            `,
+          }}
+        />
       </Head>
       {!loaded && <PreLoader />}
       {loaded && <Component {...pageProps} />}
