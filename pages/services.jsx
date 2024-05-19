@@ -95,7 +95,7 @@ const Services = () => {
                 </div>
               </div>
             </div>
-            
+            <a href="https://drive.google.com/file/d/1xpnINkB-iO_hPo83Mdt61WwRP-8Kkvf0/preview" target="_blank"><u><p>Terms & Conditions of GrowUAgency® plans</p></u></a>
           </div>
         </div>
       </section>
