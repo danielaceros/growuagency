@@ -38,11 +38,12 @@ const Services = () => {
                 </div>
                 <div className="content">
                   <h4>
-                      Social Media
+                      GrowUAgency® for Business
                   </h4>
-                  <p>
-                  Unlock the power of social media with our expert service: Growing Profiles. We specialize in expanding your social media presence organically, engaging your audience, and maximizing your reach. Let us elevate your online influence and help your brand thrive in the digital landscape.
-                  </p>
+                  <p>Elevate the social media presence of your business, relay to us the content production, and focus your attention in more important things.</p>
+                  <a href="https://i.ibb.co/LDTSq2J/Copia-de-Cream-Minimal-Social-Media-Strategy-Pricing-Table-Document-1-1.png" target="_blank">
+                  <img src="https://i.ibb.co/LDTSq2J/Copia-de-Cream-Minimal-Social-Media-Strategy-Pricing-Table-Document-1-1.png"></img>
+                  </a>
                 </div>
               </div>
             </div>
@@ -53,11 +54,12 @@ const Services = () => {
                 </div>
                 <div className="content">
                   <h4>
-                      Web Development
+                      GrowUAgency® for Creators
                   </h4>
-                  <p>
-                  Elevate your online presence with our web development service. We craft bespoke websites tailored to your needs, blending creativity with functionality to captivate your audience. From sleek designs to seamless user experience, trust us to bring your digital vision to life.
-                  </p>
+                  <p>Perfect for SFC (Short File Format) creators, produce content better, faster and focus on the main thing, having viral ideas.</p>
+                  <a href="https://i.ibb.co/W55DSH3/Cream-Minimal-Social-Media-Strategy-Pricing-Table-Document-2-1.png" target="_blank">
+                  <img src="https://i.ibb.co/W55DSH3/Cream-Minimal-Social-Media-Strategy-Pricing-Table-Document-2-1.png"></img>
+                  </a>
                 </div>
               </div>
             </div>
@@ -68,11 +70,12 @@ const Services = () => {
                 </div>
                 <div className="content">
                   <h4>
-                      Application Development
+                      GrowUAgency® for Youtubers
                   </h4>
-                  <p>
-                  Step into the digital future with our app development service. We design and develop innovative mobile applications that elevate user experiences and drive engagement. From concept to launch, we're committed to crafting cutting-edge solutions that make an impact in the ever-evolving digital landscape.
-                  </p>
+                  <p>Perfect for LFC (Large File Format) creators and focused on Youtube plaform, produce confortably and relaxed, and have better ideas relying this stuff.</p>
+                  <a href="https://i.ibb.co/j5bmF4k/Copia-de-Cream-Minimal-Social-Media-Strategy-Pricing-Table-Document-2-1.png" target="_blank">
+                  <img src="https://i.ibb.co/j5bmF4k/Copia-de-Cream-Minimal-Social-Media-Strategy-Pricing-Table-Document-2-1.png"></img>
+                  </a>
                 </div>
               </div>
             </div>
@@ -83,74 +86,16 @@ const Services = () => {
                 </div>
                 <div className="content">
                   <h4>
-                      SEO Optimization
+                      GrowUAgency® for Podcasters
                   </h4>
-                  <p>
-                  Boost your online visibility with our SEO optimization service. We employ proven strategies to enhance your website's search engine rankings, driving targeted traffic and increasing conversions. Let us optimize your online presence, so you can rise above the competition and attract more customers.
-                  </p>
+                  <p>Ideal for podcasts, produce your podcast quickly and hook your audience with visuals, you only have to center your full attention on having incredible talks.</p>
+                  <a href="https://i.ibb.co/266LWtV/Copia-de-Copia-de-Cream-Minimal-Social-Media-Strategy-Pricing-Table-Document-1.png" target="_blank">
+                  <img src="https://i.ibb.co/266LWtV/Copia-de-Copia-de-Cream-Minimal-Social-Media-Strategy-Pricing-Table-Document-1.png"></img>
+                  </a>
                 </div>
               </div>
             </div>
-            <div className="col-md-6">
-              <div className="feature-item-three wow fadeInUp delay-0-2s">
-                <div className="top-part">
-                  <span className="serial-number">05</span>
-                </div>
-                <div className="content">
-                  <h4>
-                      Design &amp; Branding
-                  </h4>
-                  <p>
-                  Elevate your brand with our design and branding service. We craft visually stunning identities that resonate with your audience, from captivating logos to cohesive brand guidelines. Whether you're launching a new venture or refreshing your image, trust us to bring your vision to life and make a lasting impression.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-6">
-              <div className="feature-item-three wow fadeInUp delay-0-4s">
-                <div className="top-part">
-                  <span className="serial-number">06</span>
-                </div>
-                <div className="content">
-                  <h4>
-                      IT Consulting
-                  </h4>
-                  <p>
-                  Empower your business with our IT consulting service. We offer strategic guidance and innovative solutions to optimize your technology infrastructure, streamline processes, and maximize efficiency. From cybersecurity to cloud computing, trust our expertise to drive your digital transformation and propel your business forward.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-6">
-              <div className="feature-item-three wow fadeInUp delay-0-2s">
-                <div className="top-part">
-                  <span className="serial-number">07</span>
-                </div>
-                <div className="content">
-                  <h4>
-                      Business Development
-                  </h4>
-                  <p>
-                  Accelerate your growth with our business development service. We provide tailored strategies and actionable insights to expand your market reach, forge strategic partnerships, and drive revenue growth. Whether you're a startup or an established enterprise, trust us to unlock new opportunities and propel your business to new heights.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-6">
-              <div className="feature-item-three wow fadeInUp delay-0-4s">
-                <div className="top-part">
-                  <span className="serial-number">08</span>
-                </div>
-                <div className="content">
-                  <h4>
-                      eCommerce Development
-                  </h4>
-                  <p>
-                  Transform your online business with our eCommerce development service. We specialize in creating custom, user-friendly platforms that drive sales and enhance customer experiences. From intuitive interfaces to seamless payment integration, trust us to build a robust eCommerce solution that scales with your business and maximizes your online potential.
-                  </p>
-                </div>
-              </div>
-            </div>
+            
           </div>
         </div>
       </section>
