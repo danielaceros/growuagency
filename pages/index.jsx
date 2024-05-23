@@ -613,7 +613,7 @@ const Index = () => {
                 <div className="btn-social">
                   <span>Daniel Acero</span>{" "}
                   <div className="social-style-two">
-                    <a href="mailto:dani@acsinframe.com" target="_blank">
+                    <a href="mailto:dani@growuagency.com" target="_blank">
                       <i className="fas fa-envelope" />
                     </a>
                     <a href="https://www.linkedin.com/in/daniel-acero-sagredo-6093871b5/" target="_blank">
@@ -650,7 +650,7 @@ const Index = () => {
                 <div className="btn-social">
                   <span>Emilio Cabanero</span>{" "}
                   <div className="social-style-two">
-                    <a href="mailto:ecabanerof@gmail.com" target="_blank">
+                    <a href="mailto:emi@growuagency.com" target="_blank">
                       <i className="fas fa-envelope" />
                     </a>
                     <a href="https://es.linkedin.com/in/ecabanerof/en" target="_blank">
