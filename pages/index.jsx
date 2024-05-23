@@ -599,7 +599,7 @@ const Index = () => {
               <div className="team-member style-two wow fadeInUp delay-0-2s">
                 <div className="image">
                   <img
-                    src="assets/images/services/das.jpg"
+                    src="assets/images/services/ds2.jpg"
                     alt="Team Member"
                   />
                 </div>
