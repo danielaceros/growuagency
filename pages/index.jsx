@@ -641,14 +641,14 @@ const Index = () => {
                   />
                 </div>
                 <div className="content">
-                  <h4>Emilio Cabanero</h4>
+                  <h4>Emilio Cabañero</h4>
                   <span>CTO</span>
                     <a className="read-more">
                       <i className="far fa-arrow-right" />
                     </a>
                 </div>
                 <div className="btn-social">
-                  <span>Emilio Cabanero</span>{" "}
+                  <span>Emilio Cabañero</span>{" "}
                   <div className="social-style-two">
                     <a href="mailto:emi@growuagency.com" target="_blank">
                       <i className="fas fa-envelope" />
