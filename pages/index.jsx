@@ -669,6 +669,43 @@ const Index = () => {
                 </div>
               </div>
             </div>
+            <div className="col-lg-4 col-sm-6">
+              <div className="team-member style-two wow fadeInUp delay-0-2s">
+                <div className="image">
+                  <img
+                    src="assets/images/services/hs2.jpg"
+                    alt="Team Member"
+                  />
+                </div>
+                <div className="content">
+                  <h4>Héctor Salvatierra</h4>
+                  <span>CMO</span>
+                    <a className="read-more">
+                      <i className="far fa-arrow-right" />
+                    </a>
+                </div>
+                <div className="btn-social">
+                  <span>Héctor Salvatierra</span>{" "}
+                  <div className="social-style-two">
+                    <a href="mailto:hector@growuagency.com" target="_blank">
+                      <i className="fas fa-envelope" />
+                    </a>
+                    <a href="https://es.linkedin.com/in/h%C3%A9ctor-salvatierra-s%C3%A1nchez-136aa6143" target="_blank">
+                      <i className="fab fa-linkedin-in" />
+                    </a>
+                    <a href="https://www.instagram.com/hectorsalvatierraa/" target="_blank">
+                      <i className="fab fa-instagram" />
+                    </a>
+                    <a href="https://api.whatsapp.com/send?phone=34602486648" target="_blank">
+                      <i className="fab fa-whatsapp" />
+                    </a>
+                    <a href="tel:+34602486648" target="_blank">
+                      <i className="fas fa-mobile-alt" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
