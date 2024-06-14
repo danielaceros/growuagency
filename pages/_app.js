@@ -5,11 +5,21 @@ import { Fragment, useEffect, useState } from "react";
 import niceSelect from "react-nice-select";
 
 export default function App({ Component, pageProps }) {
+  const router = useRouter();
   useEffect(() => {
+    const handleRouteChange = (url) => {
+      window.gtag("config", process.env.GOOGLE_ANALYTICS, {
+          page_path: url,
+      });
+  };
+  router.events.on("routeChangeComplete", handleRouteChange);
     setTimeout(() => {
       niceSelect();
     }, 500);
-  });
+  return () => {
+      router.events.off("routeChangeComplete", handleRouteChange);
+  };
+  }, [router.events]);
 
   const [loaded, setLoaded] = useState(false);
   useEffect(() => {
@@ -75,6 +85,25 @@ export default function App({ Component, pageProps }) {
             `,
           }}
         />
+        <script async src={`https://www.googletagmanager.com/gtag/js?id=G-D9Y46V62GR`} />
+                    <script
+                        dangerouslySetInnerHTML={{
+                            __html:`
+                            window.dataLayer = window.dataLayer || [];
+                            function gtag(){dataLayer.push(arguments);}
+
+                            gtag('consent', 'update', {
+                                'analytics_storage': 'granted'
+                            });
+
+                            gtag('js', new Date());
+
+                            gtag('config', 'G-D9Y46V62GR', {
+                                page_path: window.location.pathname,
+                            });
+                            `,
+                        }}
+                    />
       </Head>
       {!loaded && <PreLoader />}
       {loaded && <Component {...pageProps} />}
