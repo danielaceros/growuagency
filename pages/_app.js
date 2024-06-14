@@ -3,6 +3,7 @@ import "@/styles/globals.css";
 import Head from "next/head";
 import { Fragment, useEffect, useState } from "react";
 import niceSelect from "react-nice-select";
+import { useRouter } from "next/router";
 
 export default function App({ Component, pageProps }) {
   const router = useRouter();
