@@ -16,13 +16,23 @@ export default function App({ Component, pageProps }) {
     setTimeout(() => {
       setLoaded(true);
     }, 1500);
+
+    // Microsoft Clarity Script
+    (function(c, l, a, r, i, t, y) {
+      c[a] = c[a] || function() { (c[a].q = c[a].q || []).push(arguments) };
+      t = l.createElement(r);
+      t.async = 1;
+      t.src = "https://www.clarity.ms/tag/" + i;
+      y = l.getElementsByTagName(r)[0];
+      y.parentNode.insertBefore(t, y);
+    })(window, document, "clarity", "script", "mpb9phyb9t");
   }, []);
 
   return (
     <Fragment>
       <Head>
         <meta charSet="utf-8" />
-        <meta name="description" content />
+        <meta name="description" content="" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta
           name="viewport"
@@ -56,7 +66,7 @@ export default function App({ Component, pageProps }) {
         {/* Slick */}
         <link rel="stylesheet" href="assets/css/slick.min.css" />
         {/* Main Style */}
-        <link rel="stylesheet" href="assets/css/style.css" />ç
+        <link rel="stylesheet" href="assets/css/style.css" />
         <script
           id="mcjs"
           dangerouslySetInnerHTML={{
