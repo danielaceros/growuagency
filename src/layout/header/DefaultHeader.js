@@ -50,7 +50,7 @@ const DefaultHeader = ({ singleMenu, dark }) => {
                   }}/>
                   </button>
                   <PopupModal
-                    url="https://calendly.com/danielaceros/growuagency"
+                    url="https://calendly.com/thegrowuagency/onboarding"
                     onModalClose={() => setisOpen(false)}
                     open={isOpen}
    

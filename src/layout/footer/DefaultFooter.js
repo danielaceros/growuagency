@@ -10,7 +10,7 @@ const DefaultFooter = ({ dark }) => {
       }}
     >
       <PopupWidget
-    url="https://calendly.com/danielaceros/growuagency"
+    url="https://calendly.com/thegrowuagency/onboarding"
     rootElement={document.getElementById("__next")}
     text="Book a FREE Consulting 🚀"
     textColor="#ffffff"
@@ -34,13 +34,6 @@ const DefaultFooter = ({ dark }) => {
                     />
                   </a>
                 </Link>
-              </div>
-            </div>
-            <div className="col-lg-8 text-lg-end">
-              <div className="social-style-four mb-20 wow fadeInLeft delay-0-2s animated">
-                <a href="https://instagram.com/growuagency" target="_blank">
-                  <i className="fab fa-instagram" /> <span>Instagram</span>
-                </a>
               </div>
             </div>
           </div>

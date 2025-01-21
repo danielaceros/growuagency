@@ -187,7 +187,7 @@ const About = () => {
         </div>
       </div>
     </div>
-      <section className="team-area pt-70 rpt-40">
+    <section className="team-area pt-70 rpt-40">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-9">
@@ -200,6 +200,153 @@ const About = () => {
         </div>
         <div className="container-fluid">
           <div className="row row-cols-xl-5 row-cols-lg-4 row-cols-md-3 row-cols-sm-2 row-cols-1 justify-content-center">
+            <div className="col">
+              <div className="team-member wow fadeInUp delay-0-2s">
+                <div className="image">
+                  <img src="assets/images/services/ixc.jpg" alt="Team Member" />
+                </div>
+                <div className="content">
+                  <h4>Brahim Díaz</h4>
+                  <span>Professional Footballer</span>
+                </div>
+                <div className="btn-social">
+                      <span>Brahim Díaz</span>{" "}
+                  <div className="social-style-two">
+                    <a href="https://instagram.com/brahim" target="_blank">
+                      <i className="fab fa-instagram" />
+                    </a>
+                    <a href="https://www.tiktok.com/@iambrahimdiaz" target="_blank">
+                      <i className="fab fa-tiktok" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col">
+              <div className="team-member wow fadeInUp delay-0-5s">
+                <div className="image">
+                  <img src="assets/images/services/iom.jpg" alt="Team Member" />
+                </div>
+                <div className="content">
+                  <h4>Omar Montes</h4>
+                  <span>Emergent Artist</span>
+                </div>
+                <div className="btn-social">
+                      <span>Omar Montes</span>{" "}
+                  <div className="social-style-two">
+                    <a href="https://www.instagram.com/omarmontes" target="_blank">
+                      <i className="fab fa-instagram" />
+                    </a>
+                    <a href="https://tiktok.com/@omarmontesoficial" target="_blank">
+                      <i className="fab fa-tiktok" />
+                    </a>
+                    <a href="https://youtube.com/@omarmontes" target="_blank">
+                      <i className="fab fa-youtube" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col">
+              <div className="team-member wow fadeInUp delay-0-2s">
+                <div className="image">
+                  <img src="assets/images/services/ir.jpg" alt="Team Member" />
+                </div>
+                <div className="content">
+                  <h4>Royki</h4>
+                  <span>Adventure Influencer</span>
+                </div>
+                <div className="btn-social">
+                      <span>Royki</span>{" "}
+                  <div className="social-style-two">
+                    <a href="https://www.instagram.com/royki" target="_blank">
+                      <i className="fab fa-instagram" />
+                    </a>
+                    <a href="https://www.tiktok.com/@roykii" target="_blank">
+                      <i className="fab fa-tiktok" />
+                    </a>
+                    <a href="https://www.youtube.com/@royki" target="_blank"> 
+                      <i className="fab fa-youtube" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col">
+              <div className="team-member wow fadeInUp delay-0-2s">
+                <div className="image">
+                  <img src="assets/images/services/if.jpg" alt="Team Member" />
+                </div>
+                <div className="content">
+                  <h4>La Cocina del Pirata</h4>
+                  <span>Foodie Influencer</span>
+                </div>
+                <div className="btn-social">
+                      <span>La Cocina del Pirata</span>{" "}
+                  <div className="social-style-two">
+                    <a href="https://www.instagram.com/cocinadelpirata" target="_blank">
+                      <i className="fab fa-instagram" />
+                    </a>
+                    <a href="https://www.tiktok.com/@lacocinadelpirata" target="_blank">
+                      <i className="fab fa-tiktok" />
+                    </a>
+                    <a href="https://www.youtube.com/@LaCocinaDelPirata" target="_blank"> 
+                      <i className="fab fa-youtube" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col">
+              <div className="team-member wow fadeInUp delay-0-2s">
+                <div className="image">
+                  <img src="assets/images/services/ib.jpg" alt="Team Member" />
+                </div>
+                <div className="content">
+                  <h4>Brian Zaballos</h4>
+                  <span>Fitness Influencer</span>
+                </div>
+                <div className="btn-social">
+                      <span>Brian Zaballos</span>{" "}
+                  <div className="social-style-two">
+                    <a href="https://www.instagram.com/brianzaballxs" target="_blank">
+                      <i className="fab fa-instagram" />
+                    </a>
+                    <a href="https://www.tiktok.com/@brianzaballxs" target="_blank">
+                      <i className="fab fa-tiktok" />
+                    </a>
+                    <a href="https://www.youtube.com/@brianzaballos" target="_blank"> 
+                      <i className="fab fa-youtube" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col">
+              <div className="team-member wow fadeInUp delay-0-2s">
+                <div className="image">
+                  <img src="assets/images/services/imp.jpg" alt="Team Member" />
+                </div>
+                <div className="content">
+                  <h4>Manuel Palop</h4>
+                  <span>Founder of Team Heretics</span>
+                </div>
+                <div className="btn-social">
+                      <span>Manuel Palop</span>{" "}
+                  <div className="social-style-two">
+                    <a href="https://www.instagram.com/manupalop84" target="_blank">
+                      <i className="fab fa-instagram" />
+                    </a>
+                    <a href="https://www.tiktok.com/@manupalop84" target="_blank">
+                      <i className="fab fa-tiktok" />
+                    </a>
+                    <a href="https://www.youtube.com/@manupalop84" target="_blank"> 
+                      <i className="fab fa-youtube" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
             <div className="col">
               <div className="team-member wow fadeInUp delay-0-2s">
                 <div className="image">
@@ -269,56 +416,6 @@ const About = () => {
                       <i className="fab fa-tiktok" />
                     </a>
                     <a href="https://youtube.com/@alpacatech" target="_blank">
-                      <i className="fab fa-youtube" />
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col">
-              <div className="team-member wow fadeInUp delay-0-5s">
-                <div className="image">
-                  <img src="assets/images/services/i4.jpg" alt="Team Member" />
-                </div>
-                <div className="content">
-                  <h4>Adamancio</h4>
-                  <span>Travel Influencer</span>
-                </div>
-                <div className="btn-social">
-                      <span>Adamancio</span>{" "}
-                  <div className="social-style-two">
-                    <a href="https://instagram.com/soy.adamancio" target="_blank">
-                      <i className="fab fa-instagram" />
-                    </a>
-                    <a href="https://tiktok.com/@adamancio.clips" target="_blank">
-                      <i className="fab fa-tiktok" />
-                    </a>
-                    <a href="https://youtube.com/@adamancio_oficial" target="_blank">
-                      <i className="fab fa-youtube" />
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col">
-              <div className="team-member wow fadeInUp delay-0-6s">
-              <div className="image">
-                  <img src="assets/images/services/i5.jpg" alt="Team Member" />
-                </div>
-                <div className="content">
-                  <h4>AprendeHipnosis</h4>
-                  <span>Hypnosis Influencer</span>
-                </div>
-                <div className="btn-social">
-                      <span>AprendeHipnosis</span>{" "}
-                  <div className="social-style-two">
-                    <a href="https://instagram.com/aprende_hipnosis" target="_blank">
-                      <i className="fab fa-instagram" />
-                    </a>
-                    <a href="https://tiktok.com/@caminodelcambio" target="_blank">
-                      <i className="fab fa-tiktok" />
-                    </a>
-                    <a href="https://youtube.com/@aprendehipnosis" target="_blank">
                       <i className="fab fa-youtube" />
                     </a>
                   </div>
