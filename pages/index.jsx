@@ -511,31 +511,6 @@ const Index = () => {
             <div className="col">
               <div className="team-member wow fadeInUp delay-0-2s">
                 <div className="image">
-                  <img src="assets/images/services/if.jpg" alt="Team Member" />
-                </div>
-                <div className="content">
-                  <h4>La Cocina del Pirata</h4>
-                  <span>Foodie Influencer</span>
-                </div>
-                <div className="btn-social">
-                      <span>La Cocina del Pirata</span>{" "}
-                  <div className="social-style-two">
-                    <a href="https://www.instagram.com/cocinadelpirata" target="_blank">
-                      <i className="fab fa-instagram" />
-                    </a>
-                    <a href="https://www.tiktok.com/@lacocinadelpirata" target="_blank">
-                      <i className="fab fa-tiktok" />
-                    </a>
-                    <a href="https://www.youtube.com/@LaCocinaDelPirata" target="_blank"> 
-                      <i className="fab fa-youtube" />
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col">
-              <div className="team-member wow fadeInUp delay-0-2s">
-                <div className="image">
                   <img src="assets/images/services/ib.jpg" alt="Team Member" />
                 </div>
                 <div className="content">
